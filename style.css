@@ -19,7 +19,7 @@ body {
   color: #181818;
   text-align: center;
   font-size: 35px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 .section-description {
   color: #757575;
@@ -77,16 +77,26 @@ nav a {
 }
 .banner-tittle {
   font-size: 85px;
-  font-weight: 700px;
+  font-weight: 700;
   margin-top: 5px;
   margin-bottom: 20px;
 }
 /* main section style*/
-
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
 /*about section style*/
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
 }
