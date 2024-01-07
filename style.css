@@ -157,25 +157,63 @@ main section {
 footer {
   display: flex;
   gap: 100px;
-  background-color: #fd6e0a;
+  background-color: #fff8f3;
   margin-top: 100px;
   padding: 130px 230px;
 }
 .footer-column {
   width: 50%;
+  align-items: first baseline;
 }
 .social-link a {
   margin-right: 25px;
 }
-.contact input[type="text"],
-.contact input[type="email"],
-textarea {
+.footer-column {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
   display: block;
-  color: #757575;
-  margin-bottom: 25px;
-  padding: 18px 35px;
-  border-radius: 5px;
-  background: #fff;
-  border: 0;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input, textarea {
   width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
